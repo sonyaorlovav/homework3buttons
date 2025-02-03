@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    height: 30vh;
+    align-items: center;
+    justify-content: center;
+    background-color: lightblue;
+  }
+
+.Glassmorphismbut{
+border-radius: 20px;
+font-size: 16px;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(20px);
+background-color: rgb(190, 124, 223);
+border-color: aqua;
+}
+
+.Glassmorphismbut:hover {
+background-color: rgb(0, 255, 64);
+}
+
+.Neomorphbut{
+border-radius: 20px;
+font-size: 16px;
+box-shadow: 0 4px 10px rgba(214, 9, 9, 0.1);
+backdrop-filter: blur(20px);
+background-color: rgb(179, 255, 0);
+border-color: rgb(247, 0, 255);
+}
+    
+.Neomorphbut:hover {
+background-color: rgb(25, 0, 255);
+}
